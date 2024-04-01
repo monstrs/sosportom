@@ -1,0 +1,23 @@
+{
+  "name": "@ui/period",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./src/index.ts"
+  },
+  "main": "src/index.ts",
+  "dependencies": {
+    "@ui/text": "workspace:0.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.73",
+    "react": "^18.2.0",
+    "react-intl": "^6.6.4"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-intl": "^6"
+  }
+}
