@@ -20,3 +20,5 @@ export default async (): Promise<ReactElement> => {
     </EffectorNext>
   )
 }
+
+export const dynamic = 'force-dynamic'
